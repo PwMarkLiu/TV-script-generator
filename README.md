@@ -9,6 +9,7 @@ The purpose of this project for the students(me) to be able to implement Long Sh
 * helper.py - it contains helper function, such as save function
 * problem_unittests.py - this was used by the project reviewer as criteria to check the project.
 * workspace_utils.py - this file is used to keep Udacity's workspace awake while training.
+* requirement.txt - contains pip packages. 
 
 ## Installation
 * To use this on your local system - install (miniconda)[https://docs.conda.io/en/latest/miniconda.html]

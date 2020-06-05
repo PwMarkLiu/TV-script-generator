@@ -9,5 +9,34 @@ The purpose of this project for the student(me) to be able to implement Long Sho
 * workspace_utils.py - this file is used to keep Udacity's workspace awake while training.
 
 ## Installation
-1. Install `miniconda` on your system (here)[https://docs.conda.io/en/latest/miniconda.html]
+* To use this on your local system - install (miniconda)[https://docs.conda.io/en/latest/miniconda.html]
+
+* Open **Anaconda prompt** and install git:
+
+  ``` conda install git ```
+
+* Clone the repository and navigate to the folder.
+
+  ``` git clone https://github.com/PwMarkLiu/TV-script-generator.git ```
+
+* Create a new environment `deep-learning`
+  - for Windows:
+``` 
+    conda create --name deep-learning python=3.6
+    activate deep-learning 
+```
+
+* Install PyTorch and torchvision;
+  - for Windows:
+```
+    conda install pytorch -c pytorch
+    pip install torchvision
+```
+
+* Install pip packages in the `requirement.txt`
+```
+    pip install -r requirements.txt
+```
+
+* You can now navigate to the notebook and start using it.
 
